@@ -33,7 +33,25 @@ function dameArrayDeValores() {
     + '   {"ambito":"aplicacionTtos","texto":"AplicacionTTos---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
     + '   {"ambito":"aplicacionTtos","texto":"AplicacionTTos---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
     + '   {"ambito":"aplicacionTtos","texto":"AplicacionTTos---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
-    + '   {"ambito":"ttoFisio","texto":"Fisio---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
+    
+  + '   {"ambito":"obsCitas","texto":" Toma de Ctes + Peso + GB "},'
+    + '   {"ambito":"obsCitas","texto":"Tome de Ctes + Peso + Tapones"},'
+    + '   {"ambito":"obsCitas","texto":"Citar Vacunas atrasadas al telefono :XXX XXX XXX"},'
+    + '   {"ambito":"obsCitas","texto":"Tapón de CERUMEN ambos oídos."},'
+    + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
+    + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
+    + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
+    + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
+    + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
+    + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
+    
+  
+  
+  
+  
+  
+  
+  + '   {"ambito":"ttoFisio","texto":"Fisio---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
     + '   {"ambito":"ttoFisio","texto":"Fisio---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
     + '   {"ambito":"ttoFisio","texto":"Fisio---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
     + '   {"ambito":"ttoFisio","texto":"Fisio---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
