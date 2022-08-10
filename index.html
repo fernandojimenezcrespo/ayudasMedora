@@ -14,40 +14,23 @@
 <div class="container-fluid bg-dark" >
   <div class="container">
     <h1 class="display-3 text-white"  ><b>I can help you...</b><img src="img/medora.png" width="147" height="44" alt=""/></h1>
-
   </div>
 </div>
-    <div class="container py-3">
-        <select id="idEntorno" class="form-select form-select-lg ">
-      <option value="0">Elige</option>
-      <option value="cirugiaMenor">Cirugía Menor</option>
-      <option value="curas">Curas</option>
-      <option value="aplicacionTtos">Aplicación de Ttos.</option>
-      <option value="ttoFisio">Tto. Fisioterapéuticos</option>
-    </select>
-    </div>
-<!--<div class="container">
-  <div class="row">
-    <div class="col-3 bg-info">
-      <p class="py-1"></p>
-    </div>
-    <div class="col-3 bg-success">
-      <p></p>
-    </div>
-    <div class="col-3 bg-info">
-      <p class="py-1"></p>
-    </div>
-    <div class="col-3 bg-success">
-      <p></p>
-    </div>
-  </div>
-</div>-->
+<div class="container py-3" id="div_checkbox">
+  <input type="radio" class="btn-check" name="entornoCheck" id="cirugiaMenor" value="cirugiaMenor" autocomplete="off" checked>
+  <label class="btn btn-outline-primary" for="cirugiaMenor">Cirugía Menor</label>
+  <input type="radio" class="btn-check" name="entornoCheck" id="curas" value="curas" autocomplete="off"  >
+  <label class="btn btn-outline-primary" for="curas">Curas</label>
+ <input type="radio" class="btn-check" name="entornoCheck" id="aplicacionTtos"  value="aplicacionTtos" autocomplete="off"  >
+  <label class="btn btn-outline-primary" for="aplicacionTtos">Aplicacion Ttos.</label>
+  <input type="radio" class="btn-check" name="entornoCheck" id="ttoFisio" value="ttoFisio" autocomplete="off"  >
+  <label class="btn btn-outline-primary" for="ttoFisio">Tto. Fisioterapeuta</label>    
+</div>
 <div class="container-fluid " >
   <div class="container" id="idCuerpo">
     <input type="text" id="textoCopiado" class="text-center text-primary" value="NO TENGO NINGÚN TEXTO MEMORIZADO" readonly size="200">
   </div>
-	<div id="div_tabla" class="container">
-	</div>
+  <div id="div_tabla" class="container"> </div>
 </div>
 
 <!-- Optional JavaScript; choose one of the two! --> 
@@ -55,7 +38,7 @@
 <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) --> 
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script> 
 <script language="javascript" src="js/ayudasMedora.js"></script> 
-    <script language="javascript" src="js/textosEscritos.js"></script> 
+<script language="javascript" src="js/textosEscritos.js"></script> 
 <!--<script language="javascript">
         $(document).ready(function(e) {
       alert("222");

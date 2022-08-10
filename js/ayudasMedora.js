@@ -13,7 +13,7 @@ function cargaPrimerosValores(opcion, arrValores) {
   var hayFilas = arrValores.length;
   for (var i = 0; i < hayFilas; i++) {
     var ambito = arrValores[i].ambito;
-    var texto = arrValores[i].texto;
+     texto = arrValores[i].texto;
 
 
     linea = "<tr><td>---" + contador + "---</td><td><p id='texto_" + contador + "' class='lead " + colorFondo + "' >" + texto + "</p></td>"
@@ -59,19 +59,19 @@ function copiaTexto(objetoBtn) {
 }
 //////////////////////////////////////////////////////////// I N I C I O 
 $(document).ready(function () {
-  //alert( "ready!" );
-
+ 
   var arrValores = dameArrayDeValores();
-  cargaPrimerosValores('aplicacionTtos', arrValores);
-  $("#idEntorno").change(function (e) {
-    var valor = $("#idEntorno").val();
-    ModificaTextos(valor, arrValores);
-  });
+  cargaPrimerosValores('cirugiaMenor', arrValores);
+ 
 
   $("button[id^='btn_']").click(function () {
     var textoCopiado = copiaTexto(this.id);
 
   });
-
+  $("input[name^='entornoCheck']").click(function () {
+        var id=this.id;
+        var valor=$("#"+id).val();
+        ModificaTextos(valor, arrValores);
+  });
 
 });
