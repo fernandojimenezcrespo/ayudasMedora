@@ -6,7 +6,7 @@ function cargaPrimerosValores(opcion, arrValores) {
   var contador = 0;
   var linea = "";
   $("#div_tabla").append("<table id='idTablaTextos' class='table table-hover'>");
-  linea = "<tr><td>--" + contador + "--</td><td><p id='texto_" + contador + "' class='lead ' >" + texto + "</p></td>"
+  linea = "<tr><td><p id='texto_" + contador + "' class='lead ' >" + texto + "</p></td>"
     + "<td><button class='py-1' id='btn_" + contador + "' >Reset</button></td></tr>";
   contador++;
   $("#idTablaTextos").append(linea);
@@ -16,7 +16,7 @@ function cargaPrimerosValores(opcion, arrValores) {
      texto = arrValores[i].texto;
 
 
-    linea = "<tr><td>---" + contador + "---</td><td><p id='texto_" + contador + "' class='lead " + colorFondo + "' >" + texto + "</p></td>"
+    linea = "<tr><td><p id='texto_" + contador + "' class='lead " + colorFondo + "' >" + texto + "</p></td>"
       + "<td><button class='py-1' id='btn_" + contador + "' >Copiar</button></td></tr>";
     if (ambito == opcion) {
       $("#idTablaTextos").append(linea);
