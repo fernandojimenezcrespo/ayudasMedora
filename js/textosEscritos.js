@@ -35,7 +35,7 @@ function dameArrayDeValores() {
     + '   {"ambito":"obsCitas","texto":"Tome de Ctes + Peso + Tapones"},'
     + '   {"ambito":"obsCitas","texto":"Citar Vacunas atrasadas al telefono :XXX XXX XXX"},'
     + '   {"ambito":"obsCitas","texto":"Tapón de CERUMEN ambos oídos."},'
-    + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
+    + '   {"ambito":"obsCitas","texto":"Hablo telefónicamente con el paciente que me comenta que necesita activar algún medicamento de la receta electrónica. Le explico que para ello es necesario que pida cita NO presencial con el Médico de AP"},'
     + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
     + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
     + '   {"ambito":"obsCitas","texto":"obsCitas---Paciente con alta en Fisioterapia. Notable mejoría. Se le recomienda con la continuidad de los ejercicios en casa."},'
