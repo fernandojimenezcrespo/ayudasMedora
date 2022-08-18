@@ -15,7 +15,7 @@ function dameArrayDeValores() {
     + '   {"ambito":"curas","texto":"Limpieza de la herida con suero Fisiológico+Betadine+apósito"},'
     + '   {"ambito":"curas","texto":"Limpieza y fomentos de  Prontosan."},'
     + '   {"ambito":"curas","texto":"Herida en buen estado, sin signos de infección. Curo con suero fisiológico+Betadine+apósito"},'
-    + '   {"ambito":"curas","texto":"Herida en buen estado, sin signos de infección. Curo con suero fisiológico+Betadine y se retira la mitad de los puntos"},'
+    + '   {"ambito":"curas","texto":"Herida en buen estado, sin signos de infección. Curo con suero fisiológico+Betadine y se retira la mitad de los puntos y doy cita para seguimiento y retirar resto de grapas."},'
     + '   {"ambito":"curas","texto":"_"},'
     + '   {"ambito":"curas","texto":"_"},'
     + '   {"ambito":"curas","texto":"_"},'
